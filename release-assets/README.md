@@ -12,6 +12,8 @@ release-assets/
     icon128.png
     store-logo-300.png
     promo-small-440x280.png
+    screenshot-en-1280x800.png
+    screenshot-zh-CN-1280x800.png
   listing/
     STORE_LISTING.en.md
     STORE_LISTING.zh-CN.md
@@ -38,6 +40,13 @@ store-assets/store-logo-300.png
 
 ```text
 store-assets/promo-small-440x280.png
+```
+
+截图：
+
+```text
+store-assets/screenshot-en-1280x800.png
+store-assets/screenshot-zh-CN-1280x800.png
 ```
 
 ## 发布前必须确认
