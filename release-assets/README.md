@@ -12,6 +12,8 @@ release-assets/
     icon128.png
     store-logo-300.png
     promo-small-440x280.png
+    promo-small-en-440x280.png
+    promo-small-zh-CN-440x280.png
     screenshot-en-1280x800.png
     screenshot-zh-CN-1280x800.png
   listing/
@@ -39,7 +41,8 @@ store-assets/store-logo-300.png
 小推广图：
 
 ```text
-store-assets/promo-small-440x280.png
+store-assets/promo-small-en-440x280.png
+store-assets/promo-small-zh-CN-440x280.png
 ```
 
 截图：
