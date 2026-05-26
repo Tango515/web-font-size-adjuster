@@ -1,0 +1,65 @@
+{
+  "extensionName": {
+    "message": "Web Font Size Adjuster"
+  },
+  "extensionDescription": {
+    "message": "Adjust and remember text size per website while keeping the original page style as much as possible."
+  },
+  "actionTitle": {
+    "message": "Adjust webpage font size"
+  },
+  "htmlLang": {
+    "message": "en"
+  },
+  "textDirection": {
+    "message": "ltr"
+  },
+  "currentSite": {
+    "message": "Current site"
+  },
+  "loading": {
+    "message": "Loading"
+  },
+  "fontSizeControl": {
+    "message": "Font size controls"
+  },
+  "decreaseFont": {
+    "message": "Decrease font size"
+  },
+  "increaseFont": {
+    "message": "Increase font size"
+  },
+  "fontScale": {
+    "message": "Font size scale"
+  },
+  "presetScales": {
+    "message": "Preset scales"
+  },
+  "rememberSite": {
+    "message": "Remember this site"
+  },
+  "reset": {
+    "message": "Reset"
+  },
+  "temporaryOnly": {
+    "message": "Applies to this page only"
+  },
+  "localFile": {
+    "message": "Local file"
+  },
+  "unsupportedPage": {
+    "message": "This page is not supported"
+  },
+  "siteSaved": {
+    "message": "Saved for this site"
+  },
+  "adjustmentSaved": {
+    "message": "Adjustment saved"
+  },
+  "autoLoadEnabled": {
+    "message": "Auto-load is enabled for this site"
+  },
+  "siteReset": {
+    "message": "This site has been reset"
+  }
+}

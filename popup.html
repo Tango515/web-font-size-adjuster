@@ -1,0 +1,48 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title data-i18n="extensionName">Font Size Adjuster</title>
+    <link rel="stylesheet" href="popup.css">
+  </head>
+  <body>
+    <main class="popup-shell">
+      <header class="header">
+        <div>
+          <p class="eyebrow" data-i18n="currentSite">Current site</p>
+          <h1 id="hostname" data-i18n="loading">Loading</h1>
+        </div>
+        <output id="scaleValue" class="scale-value">100%</output>
+      </header>
+
+      <section class="control-group" data-i18n-aria-label="fontSizeControl">
+        <div class="step-row">
+          <button id="decrease" class="icon-button" type="button" data-i18n-aria-label="decreaseFont">A-</button>
+          <input id="scaleRange" type="range" min="80" max="200" step="5" value="100" data-i18n-aria-label="fontScale">
+          <button id="increase" class="icon-button" type="button" data-i18n-aria-label="increaseFont">A+</button>
+        </div>
+        <div class="preset-row" data-i18n-aria-label="presetScales">
+          <button class="preset" type="button" data-scale="100">100%</button>
+          <button class="preset" type="button" data-scale="110">110%</button>
+          <button class="preset" type="button" data-scale="125">125%</button>
+          <button class="preset" type="button" data-scale="150">150%</button>
+        </div>
+      </section>
+
+      <section class="settings-row">
+        <label class="switch">
+          <input id="remember" type="checkbox">
+          <span class="switch-ui" aria-hidden="true"></span>
+          <span data-i18n="rememberSite">Remember this site</span>
+        </label>
+        <button id="reset" class="text-button" type="button" data-i18n="reset">Reset</button>
+      </section>
+
+      <p id="status" class="status" role="status" data-i18n="temporaryOnly">Applies to this page only</p>
+    </main>
+
+    <script src="storage.js"></script>
+    <script src="popup.js"></script>
+  </body>
+</html>

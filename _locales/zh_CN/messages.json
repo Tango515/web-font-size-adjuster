@@ -1,0 +1,65 @@
+{
+  "extensionName": {
+    "message": "网页字体大小调整器"
+  },
+  "extensionDescription": {
+    "message": "按网站调整并记住网页文字大小，尽量保持原网页样式。"
+  },
+  "actionTitle": {
+    "message": "调整网页字体大小"
+  },
+  "htmlLang": {
+    "message": "zh-CN"
+  },
+  "textDirection": {
+    "message": "ltr"
+  },
+  "currentSite": {
+    "message": "当前网站"
+  },
+  "loading": {
+    "message": "读取中"
+  },
+  "fontSizeControl": {
+    "message": "字号调整"
+  },
+  "decreaseFont": {
+    "message": "减小字体"
+  },
+  "increaseFont": {
+    "message": "增大字体"
+  },
+  "fontScale": {
+    "message": "字体大小比例"
+  },
+  "presetScales": {
+    "message": "常用比例"
+  },
+  "rememberSite": {
+    "message": "记住此网站"
+  },
+  "reset": {
+    "message": "重置"
+  },
+  "temporaryOnly": {
+    "message": "仅当前页面生效"
+  },
+  "localFile": {
+    "message": "本地文件"
+  },
+  "unsupportedPage": {
+    "message": "当前页面不支持调整"
+  },
+  "siteSaved": {
+    "message": "已保存此网站"
+  },
+  "adjustmentSaved": {
+    "message": "调整已保存"
+  },
+  "autoLoadEnabled": {
+    "message": "已为此网站启用自动加载"
+  },
+  "siteReset": {
+    "message": "已重置此网站"
+  }
+}

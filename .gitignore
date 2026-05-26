@@ -1,0 +1,5 @@
+.package-stage/
+*.log
+*.tmp
+Thumbs.db
+.DS_Store
